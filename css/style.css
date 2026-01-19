@@ -1,0 +1,144 @@
+/* =============== common css part start ================ */
+* {
+    margin: 0;
+    padding: 0;
+    outline: none;
+    box-sizing: border-box;
+}
+
+ul,
+li {
+    list-style: none;
+}
+
+a {
+    text-decoration: none;
+    display: inline-block;
+}
+
+/* =============== common css part end ================ */
+/* =============== common css part start ================ */
+
+.main_menu {
+    padding: 26px 0;
+    border-bottom: 2px solid #EAE8F3;
+
+
+}
+
+.menu_btn a:nth-child(1) {
+    margin-right: 24px;
+
+
+}
+
+.menu_btn a {
+    padding: 16px 26px;
+    color: #42454A;
+    font-size: 14px;
+    font-weight: 400;
+    letter-spacing: 2%;
+    box-shadow: rgba(0, 0, 0, 0.24) 0px 3px 8px;
+    border-radius: 4px;
+    transition: all linear .3s;
+    text-decoration: none;
+}
+
+.menu_btn a:hover {
+    background: #42454A;
+    color: #ffffff;
+}
+
+.menu_here li a {
+    font-size: 14px;
+    font-weight: 400;
+    color: #42454A;
+}
+
+.menu_here {
+    gap: 70px;
+}
+
+/* =============== common css part end ================ */
+/* =============== banner css part start ================ */
+#banner_part_start {
+    padding-top: 84px;
+    position: relative;
+}
+
+.banner_text h1 {
+    max-width: 586px;
+    font-size: 90px;
+    font-weight: 300;
+    text-transform: uppercase;
+    letter-spacing: 1%;
+    color: #42454A;
+}
+
+.banner_text h1 span {
+    font-weight: 700;
+}
+
+.banner_text .line {
+    width: 335px;
+    height: 4px;
+    background: #42454A;
+    margin-top: 93px;
+    margin-bottom: 62px;
+}
+
+.banner_text p {
+    font-size: 22px;
+    font-weight: 400;
+    color: #42454A;
+    letter-spacing: 1%;
+    width: 353px;
+}
+
+.banner_img {
+    max-width: 856px;
+    position: absolute;
+    top: 31px;
+    right: 0;
+}
+
+.banner_btn {
+    display: flex;
+    gap: 50px;
+}
+
+.banner_btn p {
+    font-size: 18px;
+    font-weight: 500;
+    color: #414449;
+    width: 87px;
+}
+
+/* =============== banner css part end ================ */
+/* =============== common css part start ================ */
+/* =============== common css part end ================ */
+/* =============== common css part start ================ */
+/* =============== common css part end ================ */
+/* =============== common css part start ================ */
+/* =============== common css part end ================ */
+/* =============== footer css part start ================ */
+#footer_part_start {
+    background: #42454A;
+    padding-top: 96px;
+    padding-bottom: 124px;
+    position: relative;
+    margin-top: 127px;
+}
+
+.ses p {
+    text-align: center;
+}
+
+.footer_img {
+    width: 729px;
+    position: absolute;
+    top: 0;
+    left: 0;
+}
+
+/* =============== footer css part end ================ */
