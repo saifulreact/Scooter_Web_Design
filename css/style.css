@@ -1,3 +1,5 @@
+@import url('https://fonts.googleapis.com/css2?family=Ubuntu:ital,wght@0,300;0,400;0,500;0,700;1,300;1,400;1,500;1,700&display=swap');
+
 /* =============== common css part start ================ */
 * {
     margin: 0;
@@ -14,6 +16,10 @@ li {
 a {
     text-decoration: none;
     display: inline-block;
+}
+
+:root {
+    --font-ubonto: "Ubuntu", sans-serif;
 }
 
 /* =============== common css part end ================ */
@@ -102,9 +108,43 @@ a {
     right: 0;
 }
 
+.banner_btn button {
+    padding: 24px 16px;
+    background: #42454A;
+    color: #F7EAE3;
+}
+
+/* =============  keyfram part start =========== */
+.both_part {
+    position: relative;
+}
+
+.vetcor img {
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translateX(-50%);
+
+}
+
+.circle_img {
+    animation: circle infinite 11s;
+}
+
+@keyframes circle {
+    from {
+        transform: rotate(0deg);
+    }
+
+    to {
+        transform: rotate(360deg);
+    }
+}
+
 .banner_btn {
     display: flex;
     gap: 50px;
+    align-items: center;
 }
 
 .banner_btn p {
@@ -114,9 +154,203 @@ a {
     width: 87px;
 }
 
+.banner_btn a {
+    font-size: 20px;
+    font-family: var(--font-ubonto);
+    font-weight: 500;
+    color: #17181A;
+    letter-spacing: 2%;
+    text-decoration: none;
+}
+
 /* =============== banner css part end ================ */
-/* =============== common css part start ================ */
-/* =============== common css part end ================ */
+
+/* ================ counter part start =================== */
+#counter_part_start{
+    margin-top: 207px;
+    margin-bottom: 127px;
+}
+.top_single_count {
+    display: flex;
+    align-items: flex-end;
+    gap: 2px;
+
+
+}
+
+.counte_content {
+    border-radius: 6.6px;
+    padding: 28px 32px;
+    box-shadow: rgba(0, 0, 0, 0.24) 0px 3px 8px;
+}
+
+.top_single_count h2 {
+    font-size: 40px;
+    font-weight: bold;
+    color: #42454A;
+    font-family: var(--font-ubonto);
+
+}
+
+.top_single_count p {
+    font-size: 18px;
+    font-family: var(--font-ubonto);
+    font-weight: 800;
+    color: #42454A;
+}
+
+.bottom_single_count p {
+    text-align: center;
+}
+
+/* ================ counter part end =================== */
+/* ====================== productInformation start ================= */
+.common_css {
+    text-align: center;
+
+}
+.common_css h2{
+    font-size: 50px;
+    font-weight: bold;
+    font-family: var(--font-ubonto);
+    color: #42454A;
+}
+.common_css p{
+    font-size: 20px;
+    font-weight: 400;
+    font-family: var(--font-ubonto);
+    color: #42454A;
+    margin-top: 34px;
+}
+#product_part_start{
+    position: relative;
+}
+#product_part_start img{
+    top: 0;
+    left: 0;
+}
+
+.single_line_info{
+    display: flex;
+    gap: 18px;
+    align-items: center;
+    margin: 34px 0;
+}
+
+/* ====================== productInformation end ================= */
+/* ============ shping part start ================ */
+#shoping_part{
+    display: flex;
+    justify-content: space-between;
+    margin-bottom: 82px;
+}
+.shoping_part{
+    display: flex;
+    justify-content: end;
+}
+.moreaccories p{
+    font-size: 30px;
+    font-family: var(--font-ubonto);
+    color: #42454A;
+    font-weight: bold;
+    padding: 29px 63px;
+    border: 2px solid #42454A;
+    border-radius: 10px;
+    text-align: center;
+    margin-bottom: 121px;
+ 
+}
+/* ============ shping part end ================ */
+/* ================= gallery css part start ==================== */
+.gallery_img img{
+    margin-bottom: 55px;
+}
+/* ================= gallery css part end ==================== */
+/* =============== effectionve */
+
+.sideeffict img{
+    margin-bottom: 298px;
+    margin-top: 56px;
+}
+/* ================= testmonial part start ================= */
+#testmonial_part_start {
+    padding-top: 78px;
+    padding-bottom: 82px;
+    background: #FAFAFA;
+}
+
+#testmonial_part_start h2 {
+    text-align: center;
+    font-size: 50px;
+    font-family: var(--font-ubonto);
+    color: #42454A;
+    font-weight: bold;
+}
+
+/* ================= testmonial part end ================= */
+/* =============== subscribe css part start ================ */
+#subscribe_part {
+    padding-top: 127px;
+    padding-bottom: 121px;
+    background: #ffffff;
+}
+
+.subscribe_contenet {
+    text-align: center;
+}
+
+.subscribe_contenet h2 {
+    font-size: 50px;
+    font-weight: bold;
+    color: #42454A;
+    font-family: var(--font-ubonto);
+
+}
+
+.subscribe_contenet p {
+    font-size: 20px;
+    font-weight: 400;
+    color: #42454A;
+    margin-top: 11px;
+    margin-bottom: 59px;
+}
+
+.getstart {
+    text-align: center;
+
+}
+
+.getstart {
+    width: fit-content;
+    margin: 0 auto;
+    display: flex;
+    gap: 20px;
+}
+
+.getstart input {
+    padding: 27px 207px 27px 38px;
+    background: #F5F5F5;
+    border-radius: 10px;
+    border: 1.5px;
+}
+
+.getstart input::placeholder {
+    color: #42454A;
+    font-size: 20px;
+    font-weight: 400;
+}
+
+.getstart a {
+    padding: 27px 57px;
+    background: #42454A;
+    border-radius: 10px;
+    font-size: 20px;
+    font-weight: 400;
+    color: #FBFBFB;
+    text-decoration: none;
+}
+
+/* =============== subscribe css part end ================ */
 /* =============== common css part start ================ */
 /* =============== common css part end ================ */
 /* =============== common css part start ================ */
@@ -124,21 +358,24 @@ a {
 /* =============== footer css part start ================ */
 #footer_part_start {
     background: #42454A;
-    padding-top: 96px;
-    padding-bottom: 124px;
-    position: relative;
-    margin-top: 127px;
+    padding-top: 99px;
+
+    padding-bottom: 6px;
+}
+.footer_menu_start .single_col ul li a{
+    text-decoration: none;
+    font-size: 16px;
+    font-weight: 400;
+    color: #FBFBFB;
+    font-family: var(--font-ubonto);
+}
+.footer_menu_start .single_col ul li .foote_head{
+    font-size: 22px;
+    font-weight: bold;
+    color: #FBFBFB;
+    margin-bottom: 54px;
 }
 
-.ses p {
-    text-align: center;
-}
 
-.footer_img {
-    width: 729px;
-    position: absolute;
-    top: 0;
-    left: 0;
-}
 
 /* =============== footer css part end ================ */
